@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Library Search</title>
+  <link rel="stylesheet" type="text/css" href="search.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Library Search</h1>
+    <div class="search-bar">
+      <input type="text" id="search-input" placeholder="Search...">
+      <ul id="suggestions-list"></ul>
+    </div>
+    <div class="filter-bar">
+      <label for="sort-select">Sort by:</label>
+      <select id="sort-select">
+        <option value="title">Title</option>
+        <option value="author">Author</option>
+        <option value="subject">Subject</option>
+        <option value="publish-date">Publish Date</option>
+      </select>
+    </div>
+    <div id="book-count"></div>
+    <div id="book-list"></div>
+    <div id="cart">
+      <h2>Cart</h2>
+      <ul id="cart-items"></ul>
+      <button id="checkout-button">Checkout</button>
+    </div>
+  </div>
+
+  <script src="search.js"></script>
+</body>
+</html>
+

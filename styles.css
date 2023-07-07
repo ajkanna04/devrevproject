@@ -1,0 +1,40 @@
+.container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"],
+  button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #social-login {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #social-login button {
+    margin-right: 10px;
+  }
+  body{
+    background-color: #b1d1e1;
+  }
+  

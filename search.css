@@ -1,0 +1,87 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .search-bar {
+    position: relative;
+    background-color: #69cce8;
+    border-radius: 5em;
+
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #suggestions-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #b6d1ee;
+    border: 1px solid #ccc;
+  }
+  
+  #suggestions-list li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  #suggestions-list li:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .filter-bar {
+    margin-top: 20px;
+  }
+  
+  #book-count {
+    margin-top: 20px;
+  }
+  
+  #book-list {
+    margin-top: 20px;
+  }
+  
+  #cart {
+    margin-top: 20px;
+  }
+  
+  #cart h2 {
+    margin-bottom: 10px;
+  }
+  
+  #cart-items {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #cart-items li {
+    margin-bottom: 10px;
+  }
+  
+  #checkout-button {
+    display: block;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  body{
+    background-color: #b1d1e1;
+  }
+  
